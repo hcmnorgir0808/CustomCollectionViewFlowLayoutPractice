@@ -15,6 +15,10 @@
 		C6656217264AE7000071B75D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6656215264AE7000071B75D /* LaunchScreen.storyboard */; };
 		C6656222264AE7000071B75D /* CollectionViewPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6656221264AE7000071B75D /* CollectionViewPracticeTests.swift */; };
 		C665622D264AE7000071B75D /* CollectionViewPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C665622C264AE7000071B75D /* CollectionViewPracticeUITests.swift */; };
+		C665623C264AE8FF0071B75D /* SampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C665623A264AE8FF0071B75D /* SampleCollectionViewCell.swift */; };
+		C665623D264AE8FF0071B75D /* SampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C665623B264AE8FF0071B75D /* SampleCollectionViewCell.xib */; };
+		C6D29BBD264D83A3001AE3D3 /* CustomCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D29BBC264D83A3001AE3D3 /* CustomCollectionViewFlowLayout.swift */; };
+		C6D29BBF264D842C001AE3D3 /* CustomCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D29BBE264D842C001AE3D3 /* CustomCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		C6656228264AE7000071B75D /* CollectionViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C665622C264AE7000071B75D /* CollectionViewPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewPracticeUITests.swift; sourceTree = "<group>"; };
 		C665622E264AE7000071B75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C665623A264AE8FF0071B75D /* SampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		C665623B264AE8FF0071B75D /* SampleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SampleCollectionViewCell.xib; sourceTree = "<group>"; };
+		C6D29BBC264D83A3001AE3D3 /* CustomCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		C6D29BBE264D842C001AE3D3 /* CustomCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				C665620A264AE6FF0071B75D /* AppDelegate.swift */,
+				C665623A264AE8FF0071B75D /* SampleCollectionViewCell.swift */,
+				C665623B264AE8FF0071B75D /* SampleCollectionViewCell.xib */,
 				C665620C264AE6FF0071B75D /* SceneDelegate.swift */,
 				C665620E264AE6FF0071B75D /* ViewController.swift */,
+				C6D29BBC264D83A3001AE3D3 /* CustomCollectionViewFlowLayout.swift */,
+				C6D29BBE264D842C001AE3D3 /* CustomCollectionReusableView.swift */,
 				C6656210264AE6FF0071B75D /* Main.storyboard */,
 				C6656213264AE7000071B75D /* Assets.xcassets */,
 				C6656215264AE7000071B75D /* LaunchScreen.storyboard */,
@@ -233,6 +245,7 @@
 			files = (
 				C6656217264AE7000071B75D /* LaunchScreen.storyboard in Resources */,
 				C6656214264AE7000071B75D /* Assets.xcassets in Resources */,
+				C665623D264AE8FF0071B75D /* SampleCollectionViewCell.xib in Resources */,
 				C6656212264AE6FF0071B75D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +273,9 @@
 			files = (
 				C665620F264AE6FF0071B75D /* ViewController.swift in Sources */,
 				C665620B264AE6FF0071B75D /* AppDelegate.swift in Sources */,
+				C6D29BBF264D842C001AE3D3 /* CustomCollectionReusableView.swift in Sources */,
+				C665623C264AE8FF0071B75D /* SampleCollectionViewCell.swift in Sources */,
+				C6D29BBD264D83A3001AE3D3 /* CustomCollectionViewFlowLayout.swift in Sources */,
 				C665620D264AE6FF0071B75D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
